@@ -6,7 +6,10 @@ class Fraction
 {
 private:
 	int numerator, denominator;
-	int NOD(int a, int b){
+	int NOD(int a, int b) 
+	{
+		a < 0 ? a = (-1) * a : a = a;
+		b < 0 ? b = (-1) * b : b = b;
 		while (a > 0 && b > 0) {
 			if (a > b) {
 				a %= b;
