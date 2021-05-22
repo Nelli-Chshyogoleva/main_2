@@ -109,7 +109,7 @@ int main(){
 			outFile << *pos;
 	}
 	catch (...){
-		cout << "ERROR! Chech again for correct input or other problem." << endl;
+		cout << "ERROR! Check again for correct input or other problem." << endl;
 	}
 		return 0;
 }
